@@ -1,7 +1,6 @@
-# TFP
-distributed bayesian neural network via Tensorflow_probability and horovod.
+# Data distributed Bayesian neural network via Tensorflow_probability and horovod.
 
-- Dataset: MNIST, CIFAR10
+## Dataset: MNIST, CIFAR10
 
 - Code example:
 
