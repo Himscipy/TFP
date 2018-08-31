@@ -1,0 +1,18 @@
+KLscale:1
+data:cifar10
+model:snn
+layer_sizes:[100, 50, 10]
+priorstd:1
+seed:19931028
+trial:try
+regularizer:0.1
+drop_pattern:c
+isdrop:False
+batch_size:100
+training_epochs:20
+keep_prob:0.8
+learning_rate:0.001
+repeatConv:1
+num_monte_carlo:50
+activation:<function relu at 0x10945c400>
+inshape:[32, 32, 3]
