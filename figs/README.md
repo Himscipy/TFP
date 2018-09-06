@@ -1,8 +1,8 @@
 ### Some results of experiments
 
-- **Dataset:** MNIST
+- **MNITST**: 100 fully connected + 50 fully connected + 10 fully connected
 
-
+	+ comparison of SNN/BNN: "runtime_NN_BNN", 
 
 
 
