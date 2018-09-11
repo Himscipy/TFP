@@ -25,7 +25,12 @@ def get_base_parser():
     parser.add_argument(
         '--training_epochs', '-ep',
         type=int, default=20,
-        help="Number of epochs to run.  Default: 20.")
+        help="Number of epochs to run (for each rank). Default: 20.")
+
+    parser.add_argument(
+        '--num_iters', '-n_iter',
+        type=int, default=0,
+        help="Number of iterations to run (for each rank). Default: 0.")
 
     parser.add_argument(
         '--batch_size', '-bs',
@@ -36,13 +41,14 @@ def get_base_parser():
         '--num_monte_carlo', '-ncarlo',
         type=int, default=50,
         help="Network draws to compute \
-        predictive probabilities.  Default: 50.")
+        predictive probabilities (for each rank).  Default: 50.")
 
     parser.add_argument(
         '--num_monte_carlo_test', '-ncarlo_test',
         type=int, default=100,
         help="Network draws to compute \
-        predictive probabilities on final test dataset.  Default: 100.")
+        predictive probabilities on final \
+        test dataset (for each rank).  Default: 100.")
 
     parser.add_argument(
         '--seed',
@@ -124,6 +130,6 @@ def get_base_parser():
     parser.add_argument(
         "--viz_steps", "-vstep",
         type=int, default=2000,
-        help="Frequency at which save visualizations. Default 400.")
+        help="Frequency at which save visualizations (for rank0). Default 2000.")
 
     return parser

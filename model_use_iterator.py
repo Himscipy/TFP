@@ -29,7 +29,13 @@ def snn(args):
         batch_size=args.batch_size,
         shuffle=True)
     num_batch = len(iter_ds)
-    max_iter = num_batch * args.training_epochs
+
+    # Use num_iters if specified by user. OW, use epochs.
+    # These arguments are the same for each rank.
+    if args.num_iters > 0:
+        max_iter = args.num_iters
+    else:
+        max_iter = num_batch * args.training_epochs
 
     X = tf.placeholder(tf.float32, [None] + dim)
     y = tf.placeholder(tf.float32, [None, K])
@@ -88,7 +94,7 @@ def snn(args):
             print("=" * 21 + "Optimization Start" + "=" * 21)
 
         niter = 0
-        while niter * hvd.size() <= max_iter:
+        while niter <= max_iter:
 
             batch_x, batch_y = next(iter_ds)  # mini-batch
             _, cost_val, acc_val, niter = mon_sess.run(
@@ -96,7 +102,7 @@ def snn(args):
                 feed_dict={X: batch_x, y: batch_y}
             )
 
-            if (niter * hvd.size()) % args.viz_steps == 0:
+            if niter % args.viz_steps == 0:
                 end_time = time.time()
                 # eval on dev set
                 acc_val_dev = mon_sess.run(
@@ -167,7 +173,13 @@ def bnn(args):
         batch_size=args.batch_size,
         shuffle=True)
     num_batch = len(iter_ds)
-    max_iter = num_batch * args.training_epochs
+
+    # Use num_iters if specified by user. OW, use epochs.
+    # These arguments are the same for each rank.
+    if args.num_iters > 0:
+        max_iter = args.num_iters
+    else:
+        max_iter = num_batch * args.training_epochs
 
     print("max iteration is", max_iter)
 
@@ -253,7 +265,7 @@ def bnn(args):
 
         niter = 0
 
-        while niter * hvd.size() <= max_iter:
+        while niter <= max_iter:
 
             batch_x, batch_y = next(iter_ds)  # mini-batch
             _, loss_val, acc_val, niter = mon_sess.run(
@@ -263,14 +275,15 @@ def bnn(args):
 
             # print(niter)
 
-            if (niter * hvd.size()) % args.viz_steps == 0:
+            # default sample 50 times for each rank
+            if niter % args.viz_steps == 0:
                 end_time = time.time()
                 # eval on dev set
                 acc_val_dev = np.asarray([
                     mon_sess.run(
                         accuracy,
                         feed_dict={X: args.X_test, y: args.Y_test})
-                    for xyz in range(args.num_monte_carlo // hvd.size())])
+                    for xyz in range(args.num_monte_carlo)])
 
                 # save
                 timediff = end_time - start_time
@@ -302,7 +315,7 @@ def bnn(args):
         tmp = [mon_sess.run(
             [accuracy, labels_distribution.probs],
             feed_dict={X: args.X_test, y: args.Y_test}
-        )for xyz in range(args.num_monte_carlo_test // hvd.size())]
+        )for xyz in range(args.num_monte_carlo_test)]
         [acc_val_test, probs] = list(zip(* tmp))
         acc_val_test = np.asarray(acc_val_test)
 

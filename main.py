@@ -22,7 +22,7 @@ def run(args):
 
     args.activation = getattr(tf.nn, args.activation)
 
-    dirmake = "result" + args.trial + "/"
+    dirmake = "results/result" + args.trial + "/"
     if MPI.COMM_WORLD.Get_rank() == 0:
         if not os.path.exists(dirmake):
             os.makedirs(dirmake)
