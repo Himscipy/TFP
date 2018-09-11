@@ -1,0 +1,18 @@
+training_epochs:40
+activation:<function relu at 0x7fdff5eefea0>
+priorstd:1
+isdrop:False
+trial:71c
+inshape:[32, 32, 3]
+num_monte_carlo:20
+KLscale:0.4
+poststd:0.01
+keep_prob:0.8
+repeatConv:2
+learning_rate:0.001
+batch_size:100
+data:cifar10
+layer_sizes:[100, 50, 10]
+drop_pattern:c
+model:bnn
+seed:19931028

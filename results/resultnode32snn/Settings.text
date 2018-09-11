@@ -1,0 +1,20 @@
+seed:19931028
+learning_rate:0.001
+num_monte_carlo:50
+data:cifar10
+layer_sizes:[100, 50, 10]
+model:snn
+KLscale:1
+repeatConv:1
+regularizer:0.0
+num_monte_carlo_test:128
+batch_size:100
+drop_pattern:c
+inshape:[32, 32, 3]
+keep_prob:0.8
+trial:node32snn
+priorstd:1
+training_epochs:16
+viz_steps:384
+activation:<function relu at 0x2aab4a8d8510>
+isdrop:False

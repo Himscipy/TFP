@@ -1,0 +1,19 @@
+data:cifar10
+viz_steps:400
+seed:19931028
+activation:<function relu at 0x2aab4a8d8510>
+trial:122c
+keep_prob:0.8
+isdrop:False
+training_epochs:30
+num_monte_carlo:50
+drop_pattern:c
+model:snn
+layer_sizes:[100, 50, 10]
+learning_rate:0.001
+batch_size:100
+inshape:[32, 32, 3]
+repeatConv:1
+regularizer:0.0
+KLscale:1
+priorstd:1

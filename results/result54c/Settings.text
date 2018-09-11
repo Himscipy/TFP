@@ -1,0 +1,17 @@
+num_monte_carlo:20
+inshape:[32, 32, 3]
+seed:19931028
+data:cifar10
+learning_rate:0.001
+keep_prob:0.8
+batch_size:100
+priorstd:1
+layer_sizes:[100, 50, 10]
+drop_pattern:c
+model:bnn
+KLscale:0.4
+isdrop:False
+training_epochs:20
+trial:54c
+poststd:0.01
+activation:<function relu at 0x7f786f550f28>

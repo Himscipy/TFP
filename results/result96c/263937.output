@@ -1,0 +1,25 @@
+Rank is: 0
+=====================Optimization Start=====================
+Step: 400 RunTime: 35.015 Loss: 1.394ACC: 0.480 AccDevM: 0.500 AccDevU: 0.501
+Step: 800 RunTime: 31.297 Loss: 1.366ACC: 0.550 AccDevM: 0.547 AccDevU: 0.548
+Step: 1200 RunTime: 32.793 Loss: 1.245ACC: 0.580 AccDevM: 0.562 AccDevU: 0.563
+Step: 1600 RunTime: 32.437 Loss: 1.250ACC: 0.510 AccDevM: 0.581 AccDevU: 0.582
+Step: 2000 RunTime: 31.586 Loss: 1.155ACC: 0.610 AccDevM: 0.599 AccDevU: 0.600
+Step: 2400 RunTime: 31.489 Loss: 0.978ACC: 0.660 AccDevM: 0.594 AccDevU: 0.595
+Step: 2800 RunTime: 32.073 Loss: 0.920ACC: 0.630 AccDevM: 0.612 AccDevU: 0.613
+Step: 3200 RunTime: 32.803 Loss: 1.046ACC: 0.580 AccDevM: 0.614 AccDevU: 0.615
+Step: 3600 RunTime: 31.466 Loss: 1.048ACC: 0.710 AccDevM: 0.610 AccDevU: 0.611
+Step: 4000 RunTime: 31.736 Loss: 1.048ACC: 0.570 AccDevM: 0.619 AccDevU: 0.620
+Step: 4400 RunTime: 31.819 Loss: 0.894ACC: 0.700 AccDevM: 0.626 AccDevU: 0.628
+Step: 4800 RunTime: 32.390 Loss: 1.016ACC: 0.600 AccDevM: 0.632 AccDevU: 0.633
+Step: 5200 RunTime: 31.430 Loss: 1.140ACC: 0.600 AccDevM: 0.629 AccDevU: 0.631
+Step: 5600 RunTime: 31.340 Loss: 0.911ACC: 0.690 AccDevM: 0.636 AccDevU: 0.637
+Step: 6000 RunTime: 31.020 Loss: 0.885ACC: 0.690 AccDevM: 0.640 AccDevU: 0.641
+Step: 6400 RunTime: 32.068 Loss: 0.853ACC: 0.710 AccDevM: 0.642 AccDevU: 0.643
+Step: 6800 RunTime: 32.147 Loss: 0.842ACC: 0.740 AccDevM: 0.643 AccDevU: 0.644
+Step: 7200 RunTime: 31.691 Loss: 0.743ACC: 0.730 AccDevM: 0.642 AccDevU: 0.644
+Step: 7600 RunTime: 31.339 Loss: 0.902ACC: 0.720 AccDevM: 0.639 AccDevU: 0.641
+Step: 8000 RunTime: 32.045 Loss: 0.873ACC: 0.700 AccDevM: 0.641 AccDevU: 0.642
+=====================Optimization Finish=====================
+Step: 8000 RunTime: 1234.331 TestAcc:0.641
+Application 4949031 resources: utime ~19102s, stime ~3013s, Rss ~3862620, inblocks ~73386, outblocks ~0

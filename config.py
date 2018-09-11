@@ -123,7 +123,7 @@ def get_base_parser():
 
     parser.add_argument(
         "--viz_steps", "-vstep",
-        type=int, default=400,
+        type=int, default=2000,
         help="Frequency at which save visualizations. Default 400.")
 
     return parser

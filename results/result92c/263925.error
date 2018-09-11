@@ -1,0 +1,40 @@
+Intel Python 3.5 version 2017.0.035 loaded
+Intel Python 3.5 version 2017.0.035 loaded
+Intel Python 3.5 version 2017.0.035 loaded
+WARNING: MPI has already been initialized without multi-threading support (MPI_THREAD_MULTIPLE). This will likely cause a segmentation fault.
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/soft/datascience/tf1.10/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+INFO:tensorflow:Graph was finalized.
+2018-08-22 19:24:35.895727: I tensorflow/core/common_runtime/process_util.cc:69] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.

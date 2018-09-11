@@ -1,0 +1,170 @@
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+INFO:tensorflow:Graph was finalized.
+2018-08-19 14:10:21.942521: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: FMA
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+INFO:tensorflow:Graph was finalized.
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+INFO:tensorflow:Graph was finalized.
+2018-08-19 14:10:22.012867: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: FMA
+2018-08-19 14:10:22.016360: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: FMA
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+INFO:tensorflow:Graph was finalized.
+2018-08-19 14:10:22.059950: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: FMA
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+/usr/local/lib/python3.5/dist-packages/tensorflow/python/util/tf_inspect.py:75: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+  return _inspect.getargspec(target)
+INFO:tensorflow:Graph was finalized.
+2018-08-19 14:10:22.088631: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: FMA
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.

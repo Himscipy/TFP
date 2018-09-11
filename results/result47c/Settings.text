@@ -1,0 +1,17 @@
+KLscale:0.4
+priorstd:1
+keep_prob:0.8
+batch_size:100
+seed:19931028
+activation:<function relu at 0x7fa9fb340c80>
+poststd:None
+trial:47c
+layer_sizes:[100, 50, 10]
+learning_rate:0.001
+inshape:[32, 32, 3]
+training_epochs:20
+drop_pattern:c
+model:bnn
+num_monte_carlo:20
+data:cifar10
+isdrop:False

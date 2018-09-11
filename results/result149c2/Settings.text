@@ -1,0 +1,20 @@
+priorstd:1
+inshape:[32, 32, 3]
+model:snn
+num_monte_carlo_test:128
+batch_size:100
+seed:19931028
+drop_pattern:c
+training_epochs:16
+activation:<function relu at 0x2aab4a8d9510>
+keep_prob:0.8
+num_monte_carlo:50
+layer_sizes:[100, 50, 10]
+learning_rate:0.001
+trial:149c2
+viz_steps:384
+repeatConv:1
+isdrop:False
+KLscale:1
+data:cifar10
+regularizer:0.0

@@ -1,0 +1,21 @@
+drop_pattern:c
+viz_steps:384
+inshape:[32, 32, 3]
+learning_rate:0.001
+keep_prob:0.8
+repeatConv:1
+batch_size:100
+trial:158c
+seed:19931028
+isdrop:False
+num_monte_carlo_test:128
+priorstd:1
+layer_sizes:[100, 50, 10]
+data:cifar10
+regularizer:0.0
+activation:<function relu at 0x2aab4a8d8510>
+model:bnn
+poststd:0.01
+num_monte_carlo:20
+KLscale:1.0
+training_epochs:16

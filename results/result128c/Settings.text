@@ -1,0 +1,20 @@
+repeatConv:1
+activation:<function relu at 0x2aab4a8d8510>
+num_monte_carlo:24
+viz_steps:400
+trial:128c
+model:bnn
+training_epochs:30
+inshape:[32, 32, 3]
+poststd:0.01
+drop_pattern:c
+priorstd:1
+data:cifar10
+seed:19931028
+isdrop:False
+keep_prob:0.8
+learning_rate:0.001
+regularizer:0.0
+batch_size:100
+KLscale:1.0
+layer_sizes:[100, 50, 10]
