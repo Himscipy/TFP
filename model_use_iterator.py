@@ -7,8 +7,10 @@ import time
 import horovod.tensorflow as hvd
 import nnet
 from batch_iterator import minibatcher
-from tensorflow_probability.python import distributions as tfd
+# from tensorflow_probability.python import distributions as tfd
 tf.logging.set_verbosity(tf.logging.INFO)
+
+tfd = tfp.distributions
 
 
 def snn(args):

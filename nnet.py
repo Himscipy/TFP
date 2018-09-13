@@ -2,7 +2,9 @@
 import tensorflow as tf
 import tensorflow_probability as tfp
 from tensorflow_probability.python.layers import util as tfp_layers_util
-from tensorflow_probability.python import distributions as tfd
+# from tensorflow_probability.python import distributions as tfd
+
+tfd = tfp.distributions
 
 
 def gen_priordist(std=1):
