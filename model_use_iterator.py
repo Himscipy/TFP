@@ -40,16 +40,27 @@ def snn(args):
     X = tf.placeholder(tf.float32, [None] + dim)
     y = tf.placeholder(tf.float32, [None, K])
 
-    neural_net = nnet.convnet(activation=args.activation,
-                              inshape=args.inshape, numclass=K, isBay=False)
+    if args.data.lower() in ("cifar", "cifar10"):
+        neural_net = nnet.convnet(activation=args.activation,
+                                  inshape=args.inshape,
+                                  numclass=K, isBay=False,
+                                  regularizer=args.regularizer)
+    else:
+        neural_net = nnet.fullnet(activation=args.activation,
+                                  layer_sizes=args.layer_sizes,
+                                  numclass=K, isBay=False,
+                                  regularizer=args.regularizer)
 
     logits = neural_net(X)
     labels_distribution = tfd.Categorical(logits=logits)
     pred = tf.nn.softmax(logits, name="pred")
 
-    cost = tf.reduce_mean(
+    lossreg = sum(neural_net.losses)  # / N
+    losscost = tf.reduce_mean(
         tf.nn.softmax_cross_entropy_with_logits_v2(labels=y, logits=logits)
     )
+    cost = lossreg + losscost
+
     correct_prediction = tf.equal(tf.argmax(pred, 1), tf.argmax(y, 1))
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 
@@ -190,10 +201,18 @@ def bnn(args):
     X = tf.placeholder(tf.float32, [None] + dim)
     y = tf.placeholder(tf.float32, [None, K])
 
-    neural_net = nnet.convnet(
-        numclass=K, inshape=args.inshape, isBay=True,
-        priorstd=args.priorstd, poststd=args.poststd
-    )
+    if args.data.lower() in ("cifar", "cifar10"):
+        neural_net = nnet.convnet(
+            activation=args.activation,
+            numclass=K, inshape=args.inshape, isBay=True,
+            priorstd=args.priorstd, poststd=args.poststd
+        )
+    else:
+        neural_net = nnet.fullnet(
+            activation=args.activation,
+            numclass=K, layer_sizes=args.layer_sizes, isBay=True,
+            priorstd=args.priorstd, poststd=args.poststd)
+
     logits = neural_net(X)
 
     labels_distribution = tfd.Categorical(logits=logits)
